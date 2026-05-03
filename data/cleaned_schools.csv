@@ -1,0 +1,268 @@
+INSTNM,CITY,STABBR,REGION,REGION_NAME,CONTROL,CONTROL_NAME,ADM_RATE,SAT_AVG,UGDS,TUITIONFEE_IN,TUITIONFEE_OUT,GRAD_RATE,MD_EARN_WNE_P10
+Amherst College,Amherst,MA,1,New England,2,Private nonprofit,0.0901,1533.0,1911,70480,70480,0.939,77644
+Appalachian State University,Boone,NC,5,Southeast,1,Public,0.9014,1214.0,19444,7579,25212,0.7453,51836
+Arizona State University Campus Immersion,Tempe,AZ,6,Southwest,1,Public,0.8989,,64674,12223,33139,0.6804,62668
+Auburn University,Auburn,AL,5,Southeast,1,Public,0.4592,1345.0,26816,12890,34922,0.8195,65337
+Babson College,Wellesley,MA,1,New England,2,Private nonprofit,0.1709,1457.0,2728,57152,57152,0.9312,123938
+Ball State University,Muncie,IN,3,Great Lakes,1,Public,0.855,1160.0,13988,11082,29630,0.6234,51833
+Barnard College,New York,NY,2,Mid East,2,Private nonprofit,0.0884,1520.0,3264,69888,69888,0.9302,80516
+Bates College,Lewiston,ME,1,New England,2,Private nonprofit,0.1332,1468.0,1760,66590,66590,0.8969,69498
+Baylor University,Waco,TX,6,Southwest,2,Private nonprofit,0.5128,1329.0,14785,58100,58100,0.7999,65793
+Berea College,Berea,KY,5,Southeast,2,Private nonprofit,0.1934,1249.0,1513,51658,51658,0.5822,43150
+Binghamton University,Vestal,NY,2,Mid East,1,Public,0.3861,1415.0,14655,10567,30447,0.8162,80596
+Boise State University,Boise,ID,7,Rocky Mountains,1,Public,0.8721,,17674,9048,27788,0.602,51658
+Boston College,Chestnut Hill,MA,1,New England,2,Private nonprofit,0.1643,1507.0,10085,70702,70702,0.9083,103937
+Boston University,Boston,MA,1,New England,2,Private nonprofit,0.1111,1480.0,18248,68102,68102,0.8866,83238
+Bowdoin College,Brunswick,ME,1,New England,2,Private nonprofit,0.0713,1520.0,1873,67832,67832,0.9528,82735
+Bowling Green State University-Main Campus,Bowling Green,OH,3,Great Lakes,1,Public,0.8096,1117.0,12812,14460,22448,0.6373,47896
+Brigham Young University,Provo,UT,7,Rocky Mountains,2,Private nonprofit,0.6778,1376.0,32952,6688,6688,0.8098,75790
+Brown University,Providence,RI,1,New England,2,Private nonprofit,0.0539,1546.0,7226,71412,71412,0.9569,93487
+CUNY Bernard M Baruch College,New York,NY,2,Mid East,1,Public,0.4752,1280.0,16154,7464,15414,0.7212,75971
+CUNY Brooklyn College,Brooklyn,NY,2,Mid East,1,Public,0.5836,1140.0,10543,7452,15402,0.5386,60752
+CUNY City College,New York,NY,2,Mid East,1,Public,0.6002,1260.0,12505,7340,15290,0.5682,66039
+CUNY Hunter College,New York,NY,2,Mid East,1,Public,0.538,1280.0,16289,7382,15332,0.5686,63163
+CUNY John Jay College of Criminal Justice,New York,NY,2,Mid East,1,Public,0.5711,1080.0,11590,7470,15420,0.5583,56195
+CUNY Lehman College,Bronx,NY,2,Mid East,1,Public,0.5658,970.0,10696,7410,15360,0.5128,58013
+CUNY New York City College of Technology,Brooklyn,NY,2,Mid East,1,Public,0.8029,1010.0,13580,7332,15282,0.2147,49365
+CUNY Queens College,Queens,NY,2,Mid East,1,Public,0.6435,1120.0,12550,7538,15488,0.5325,62763
+California Institute of Technology,Pasadena,CA,8,Far West,2,Private nonprofit,0.0257,,987,65898,65898,0.9437,128566
+California Polytechnic State University-San Luis Obispo,San Luis Obispo,CA,8,Far West,1,Public,0.3132,,21996,13596,34665,0.864,90768
+California State Polytechnic University-Pomona,Pomona,CA,8,Far West,1,Public,0.7517,,25042,7780,20380,0.6843,71902
+California State University-Chico,Chico,CA,8,Far West,1,Public,0.9272,,13631,8472,21072,0.6278,64172
+California State University-Dominguez Hills,Carson,CA,8,Far West,1,Public,0.933,,12538,7449,20049,0.4279,57162
+California State University-Fresno,Fresno,CA,8,Far West,1,Public,0.9526,,21605,7350,19950,0.5696,61244
+California State University-Fullerton,Fullerton,CA,8,Far West,1,Public,0.9052,,38546,7470,20070,0.7018,62951
+California State University-Long Beach,Long Beach,CA,8,Far West,1,Public,0.4627,,35924,7350,19950,0.6888,64403
+California State University-Los Angeles,Los Angeles,CA,8,Far West,1,Public,0.9125,,19562,7160,19760,0.5298,59211
+California State University-Northridge,Northridge,CA,8,Far West,1,Public,0.9345,,32691,7458,20058,0.5695,59115
+California State University-Sacramento,Sacramento,CA,8,Far West,1,Public,0.9399,,28350,8018,20618,0.5629,64876
+California State University-San Bernardino,San Bernardino,CA,8,Far West,1,Public,0.9374,,15023,8093,20693,0.549,59977
+California State University-San Marcos,San Marcos,CA,8,Far West,1,Public,0.951,,14877,8082,20682,0.5456,62908
+Carleton College,Northfield,MN,4,Plains,2,Private nonprofit,0.2041,1517.0,2086,68892,68892,0.896,75525
+Carnegie Mellon University,Pittsburgh,PA,2,Mid East,2,Private nonprofit,0.1166,1546.0,7304,66246,66246,0.9413,114862
+Central Michigan University,Mount Pleasant,MI,3,Great Lakes,1,Public,0.8982,1091.0,10035,14760,14760,0.5872,55874
+Central Penn College,Summerdale,PA,2,Mid East,3,Private for-profit,0.1846,,662,19854,19854,0.5091,45370
+Chamberlain University-Illinois,Addison,IL,3,Great Lakes,3,Private for-profit,0.8264,,14027,21536,21536,0.4167,92405
+Citadel Military College of South Carolina,Charleston,SC,5,Southeast,1,Public,0.2272,1208.0,2705,12570,38508,0.75,72085
+Claremont McKenna College,Claremont,CA,8,Far West,2,Private nonprofit,0.0959,1527.0,1388,67980,67980,0.9136,104736
+Clemson University,Clemson,SC,5,Southeast,1,Public,0.3834,1353.0,23300,15554,40866,0.8656,71513
+Coastal Carolina University,Conway,SC,5,Southeast,1,Public,0.7527,1143.0,10377,11640,29628,0.4846,47258
+Colby College,Waterville,ME,1,New England,2,Private nonprofit,0.0709,1501.0,2407,69600,69600,0.8879,80490
+Colgate University,Hamilton,NY,2,Mid East,2,Private nonprofit,0.1388,1508.0,3180,70306,70306,0.9117,85139
+College of Charleston,Charleston,SC,5,Southeast,1,Public,0.6003,1247.0,10558,12978,38296,0.6583,56416
+College of the Holy Cross,Worcester,MA,1,New England,2,Private nonprofit,0.1761,1353.0,3106,64500,64500,0.8733,90543
+College of the Ozarks,Point Lookout,MO,4,Plains,2,Private nonprofit,0.1199,1118.0,1444,22320,22320,0.6369,41592
+Colorado College,Colorado Springs,CO,7,Rocky Mountains,2,Private nonprofit,0.1847,1365.0,2014,70734,70734,0.8766,65222
+Colorado State University-Fort Collins,Fort Collins,CO,7,Rocky Mountains,1,Public,0.8854,,25538,13373,34783,0.6651,60543
+Columbia University in the City of New York,New York,NY,2,Mid East,2,Private nonprofit,0.0399,1553.0,8973,71845,71845,0.961,102491
+Cornell University,Ithaca,NY,2,Mid East,2,Private nonprofit,0.0876,1535.0,15995,69314,69314,0.9538,104043
+Crown College,Saint Bonifacius,MN,4,Plains,2,Private nonprofit,0.2278,,796,31410,31410,0.4539,48057
+Dallas Christian College,Dallas,TX,6,Southwest,2,Private nonprofit,0.218,931.0,224,21730,21730,0.2857,43503
+Dartmouth College,Hanover,NH,1,New England,2,Private nonprofit,0.054,1534.0,4541,68268,68268,0.9554,97434
+Davidson College,Davidson,NC,5,Southeast,2,Private nonprofit,0.1337,1469.0,1867,64410,64410,0.9107,81400
+DePaul University,Chicago,IL,3,Great Lakes,2,Private nonprofit,0.7589,1262.0,14090,45999,45999,0.678,68751
+Denison University,Granville,OH,3,Great Lakes,2,Private nonprofit,0.1739,1410.0,2380,67000,67000,0.789,67753
+Drexel University,Philadelphia,PA,2,Mid East,2,Private nonprofit,0.7944,1345.0,13233,62412,62412,0.7816,84648
+Duke University,Durham,NC,5,Southeast,2,Private nonprofit,0.0571,1548.0,6442,68758,68758,0.9678,97800
+East Carolina University,Greenville,NC,5,Southeast,1,Public,0.8921,1180.0,19896,7361,23638,0.6262,55146
+East Tennessee State University,Johnson City,TN,5,Southeast,1,Public,0.8619,1144.0,10004,10472,14522,0.5321,44859
+Eastern Kentucky University,Richmond,KY,5,Southeast,1,Public,0.7761,1149.0,12318,10320,21230,0.5004,45795
+Eastern Michigan University,Ypsilanti,MI,3,Great Lakes,1,Public,0.7964,1066.0,10055,16240,16240,0.4644,51793
+Emory University,Atlanta,GA,5,Southeast,2,Private nonprofit,0.1065,1520.0,7298,64280,64280,0.9109,80137
+Florida Agricultural and Mechanical University,Tallahassee,FL,5,Southeast,1,Public,0.2056,1107.0,7582,5785,17725,0.5335,44349
+Florida Atlantic University,Boca Raton,FL,5,Southeast,1,Public,0.6613,1127.0,23757,4879,17324,0.6257,56746
+Florida Gulf Coast University,Fort Myers,FL,5,Southeast,1,Public,0.6344,1114.0,13874,6118,25162,0.574,54560
+Florida International University,Miami,FL,5,Southeast,1,Public,0.5466,1163.0,39508,6565,18964,0.7443,60249
+Florida State University,Tallahassee,FL,5,Southeast,1,Public,0.2422,1361.0,32212,5656,18786,0.8561,61675
+Fordham University,Bronx,NY,2,Mid East,2,Private nonprofit,0.5931,1418.0,10512,64915,64915,0.8191,85569
+George Mason University,Fairfax,VA,5,Southeast,1,Public,0.8748,1274.0,27752,14220,38688,0.6784,76343
+George Washington University,Washington,DC,2,Mid East,2,Private nonprofit,0.4709,1433.0,11182,67710,67710,0.8398,90873
+Georgetown University,Washington,DC,2,Mid East,2,Private nonprofit,0.1291,1487.0,7569,68017,68017,0.9481,103494
+Georgia Gwinnett College,Lawrenceville,GA,5,Southeast,1,Public,0.955,,11344,4532,13844,0.2147,47730
+Georgia Institute of Technology-Main Campus,Atlanta,GA,5,Southeast,1,Public,0.1407,1480.0,18785,12058,34484,0.9402,102772
+Georgia Southern University,Statesboro,GA,5,Southeast,1,Public,0.8789,1053.0,21790,6022,17734,0.549,53236
+Georgia State University,Atlanta,GA,5,Southeast,1,Public,0.5544,1076.0,26623,8664,24840,0.5306,47384
+Grand Canyon University,Phoenix,AZ,6,Southwest,3,Private for-profit,0.7891,1077.0,73371,17850,17850,0.4346,42186
+Grand Valley State University,Allendale,MI,3,Great Lakes,1,Public,0.8302,1074.0,18854,15140,21548,0.6701,56118
+Grinnell College,Grinnell,IA,4,Plains,2,Private nonprofit,0.1451,1486.0,1729,68106,68106,0.8812,62830
+Hamilton College,Clinton,NY,2,Mid East,2,Private nonprofit,0.1362,1506.0,2030,68960,68960,0.9063,78411
+Harvard University,Cambridge,MA,1,New England,2,Private nonprofit,0.0365,1553.0,7601,61676,61676,0.9758,101817
+Harvey Mudd College,Claremont,CA,8,Far West,2,Private nonprofit,0.1266,1545.0,921,68613,68613,0.9188,138687
+Haverford College,Haverford,PA,2,Mid East,2,Private nonprofit,0.1237,1513.0,1430,70688,70688,0.8964,79966
+Howard University,Washington,DC,2,Mid East,2,Private nonprofit,0.4134,1213.0,10108,35810,35810,0.6996,63066
+Illinois State University,Normal,IL,3,Great Lakes,1,Public,0.8815,1113.0,19057,16144,28210,0.6454,62117
+Indiana University-Bloomington,Bloomington,IN,3,Great Lakes,1,Public,0.7821,1313.0,37806,12144,41891,0.8021,63742
+Indiana University-Indianapolis,Indianapolis,IN,3,Great Lakes,1,Public,0.7637,1139.0,13830,10762,34891,0.5445,55198
+Iowa State University,Ames,IA,4,Plains,1,Public,0.8866,1204.0,25367,10787,28881,0.7532,63386
+James Madison University,Harrisonburg,VA,5,Southeast,1,Public,0.7152,1256.0,20888,14250,31604,0.7972,69954
+Johns Hopkins University,Baltimore,MD,2,Mid East,2,Private nonprofit,0.0644,1553.0,5693,65230,65230,0.9378,87555
+Kansas State University,Manhattan,KS,4,Plains,1,Public,0.8169,1151.0,15142,11221,28568,0.7108,57262
+Kean University,Union,NJ,2,Mid East,1,Public,0.759,1040.0,11433,14299,22446,0.4657,57237
+Kennesaw State University,Kennesaw,GA,5,Southeast,1,Public,0.6919,1113.0,41254,5808,17736,0.522,57552
+Kent State University at Kent,Kent,OH,3,Great Lakes,1,Public,0.8634,1099.0,19320,13232,23082,0.6372,45388
+Liberty University,Lynchburg,VA,5,Southeast,2,Private nonprofit,0.9898,,50012,22465,22465,0.6533,44813
+Louisiana State University and Agricultural & Mechanical College,Baton Rouge,LA,5,Southeast,1,Public,0.7333,1285.0,30594,11954,28631,0.6881,61251
+Loyola University Chicago,Chicago,IL,3,Great Lakes,2,Private nonprofit,0.816,1297.0,11737,53710,53710,0.7304,71530
+Massachusetts Institute of Technology,Cambridge,MA,1,New England,2,Private nonprofit,0.0455,1560.0,4535,62396,62396,0.9641,143372
+Metropolitan State University of Denver,Denver,CO,7,Rocky Mountains,1,Public,0.988,1019.0,15002,11124,30684,0.3154,52093
+Miami University-Oxford,Oxford,OH,3,Great Lakes,1,Public,0.754,1317.0,16656,18161,41221,0.7979,55076
+Michigan State University,East Lansing,MI,3,Great Lakes,1,Public,0.848,1269.0,40922,16458,43842,0.8072,67253
+Middle Tennessee State University,Murfreesboro,TN,5,Southeast,1,Public,0.6909,1121.0,16301,10266,31574,0.537,48541
+Middlebury College,Middlebury,VT,1,New England,2,Private nonprofit,0.1075,1508.0,2738,67600,67600,0.914,76310
+Minnesota State University-Mankato,Mankato,MN,4,Plains,1,Public,0.8844,1150.0,11703,9572,18942,0.5395,56922
+Mississippi State University,Mississippi State,MS,5,Southeast,1,Public,0.7764,1219.0,18397,10202,27637,0.6667,51513
+Missouri State University-Springfield,Springfield,MO,4,Plains,1,Public,0.9053,1122.0,13313,9502,18770,0.5791,49827
+Montana State University,Bozeman,MT,7,Rocky Mountains,1,Public,0.8214,1183.0,14451,8460,33287,0.5708,53263
+Montclair State University,Montclair,NJ,2,Mid East,1,Public,0.8789,1070.0,18376,15912,26022,0.6466,61415
+New Mexico State University-Main Campus,Las Cruces,NM,6,Southwest,1,Public,0.8897,1011.0,11946,8183,25307,0.5517,39067
+New York University,New York,NY,2,Mid East,2,Private nonprofit,0.0923,1520.0,28663,62796,62796,0.8757,82509
+North Carolina A & T State University,Greensboro,NC,5,Southeast,1,Public,0.499,1074.0,12182,6813,20673,0.5718,44440
+North Carolina State University at Raleigh,Raleigh,NC,5,Southeast,1,Public,0.4174,1376.0,27371,8799,32847,0.8476,68758
+Northeastern University,Boston,MA,1,New England,2,Private nonprofit,0.0522,1497.0,17326,66162,66162,0.9054,92538
+Northern Arizona University,Flagstaff,AZ,6,Southwest,1,Public,0.8961,,22903,13009,29881,0.6132,54384
+Northern Illinois University,Dekalb,IL,3,Great Lakes,1,Public,0.6979,,11301,13248,13248,0.4866,57808
+Northwestern University,Evanston,IL,3,Great Lakes,2,Private nonprofit,0.0769,1533.0,9201,68322,68322,0.9513,89363
+Oakland University,Rochester Hills,MI,3,Great Lakes,1,Public,0.8784,1120.0,12351,15262,23188,0.5756,58612
+Ohio State University-Main Campus,Columbus,OH,3,Great Lakes,1,Public,0.6057,1387.0,45638,13244,40022,0.8772,60409
+Ohio University-Main Campus,Athens,OH,3,Great Lakes,1,Public,0.8499,1212.0,19633,14158,24838,0.6545,52581
+Oklahoma State University-Main Campus,Stillwater,OK,6,Southwest,1,Public,0.7504,1150.0,21773,10234,25754,0.6817,57413
+Old Dominion University,Norfolk,VA,5,Southeast,1,Public,0.9036,1197.0,17514,12750,33780,0.4632,54914
+Oregon State University,Corvallis,OR,8,Far West,1,Public,0.773,1290.0,30743,14400,38190,0.7011,64010
+Pennsylvania State University-Main Campus,University Park,PA,2,Mid East,1,Public,0.6056,1337.0,42284,20644,41790,0.8609,63435
+Pomona College,Claremont,CA,8,Far West,2,Private nonprofit,0.0709,1534.0,1666,65420,65420,0.932,77779
+Portland State University,Portland,OR,8,Far West,1,Public,0.9087,,13182,11679,31074,0.5266,57906
+Princeton University,Princeton,NJ,2,Mid East,2,Private nonprofit,0.0462,1553.0,5709,62688,62688,0.9761,110066
+Purdue University-Main Campus,West Lafayette,IN,3,Great Lakes,1,Public,0.4987,1364.0,44503,9992,28794,0.831,72424
+Reed College,Portland,OR,8,Far West,2,Private nonprofit,0.2461,1437.0,1320,69350,69350,0.7147,62927
+Rhode Island School of Design,Providence,RI,1,New England,2,Private nonprofit,0.1866,1473.0,2084,62688,62688,0.8877,68140
+Rice University,Houston,TX,6,Southwest,2,Private nonprofit,0.08,1553.0,4776,64144,64144,0.9464,89718
+Rochester Institute of Technology,Rochester,NY,2,Mid East,2,Private nonprofit,0.6693,1383.0,13215,59274,59274,0.6989,76571
+Rowan University,Glassboro,NJ,2,Mid East,1,Public,0.7766,1212.0,15841,16574,26932,0.6736,59988
+Rutgers University-New Brunswick,New Brunswick,NJ,2,Mid East,1,Public,0.5815,1410.0,37751,17929,37441,0.8363,74479
+Sam Houston State University,Huntsville,TX,6,Southwest,1,Public,0.9026,1041.0,17743,9228,19068,0.5476,54211
+San Diego State University,San Diego,CA,8,Far West,1,Public,0.3619,,35377,8728,21328,0.7643,64909
+San Francisco State University,San Francisco,CA,8,Far West,1,Public,0.9644,,18639,7950,20550,0.5037,68077
+San Jose State University,San Jose,CA,8,Far West,1,Public,0.8461,,27601,8410,21010,0.6922,78988
+Savannah College of Art and Design,Savannah,GA,5,Southeast,2,Private nonprofit,0.8298,1173.0,15243,41630,41630,0.6941,45954
+Skidmore College,Saratoga Springs,NY,2,Mid East,2,Private nonprofit,0.2105,1405.0,2694,67290,67290,0.8257,69363
+Smith College,Northampton,MA,1,New England,2,Private nonprofit,0.21,1500.0,2544,65178,65178,0.8905,64027
+Southern New Hampshire University,Manchester,NH,1,New England,2,Private nonprofit,0.9951,,163164,17200,17200,0.4283,50318
+Stanford University,Stanford,CA,8,Far West,2,Private nonprofit,0.0361,1553.0,7554,65910,65910,0.9192,124080
+Stony Brook University,Stony Brook,NY,2,Mid East,1,Public,0.4904,1419.0,18101,10931,32741,0.7556,74502
+Swarthmore College,Swarthmore,PA,2,Mid East,2,Private nonprofit,0.0746,1534.0,1613,65494,65494,0.9227,80257
+Syracuse University,Syracuse,NY,2,Mid East,2,Private nonprofit,0.4592,1375.0,15477,65528,65528,0.8361,79164
+Tarleton State University,Stephenville,TX,6,Southwest,1,Public,0.8955,1075.0,12673,8302,18142,0.4821,53040
+Temple University,Philadelphia,PA,2,Mid East,1,Public,0.8041,,20970,23011,38958,0.7505,63727
+Texas A&M University-College Station,College Station,TX,6,Southwest,1,Public,0.5743,1280.0,59615,13154,40124,0.8391,72097
+Texas Christian University,Fort Worth,TX,6,Southwest,2,Private nonprofit,0.4449,1298.0,11026,61740,61740,0.8551,68424
+Texas State University,San Marcos,TX,6,Southwest,1,Public,0.8932,1103.0,36177,11450,22930,0.5528,56906
+Texas Tech University,Lubbock,TX,6,Southwest,1,Public,0.7265,1190.0,32394,11852,24451,0.6869,62454
+The Cooper Union for the Advancement of Science and Art,New York,NY,2,Mid East,2,Private nonprofit,0.2071,1410.0,842,46820,46820,0.8111,83847
+The Juilliard School,New York,NY,2,Mid East,2,Private nonprofit,0.0915,,468,57950,57950,0.9256,37827
+The University of Alabama,Tuscaloosa,AL,5,Southeast,1,Public,0.7665,1285.0,33227,12180,34172,0.7337,59221
+The University of Tampa,Tampa,FL,5,Southeast,2,Private nonprofit,0.4034,,10572,34408,34408,0.637,59436
+The University of Tennessee-Chattanooga,Chattanooga,TN,5,Southeast,1,Public,0.8109,1147.0,10074,10448,18512,0.5024,51151
+The University of Tennessee-Knoxville,Knoxville,TN,5,Southeast,1,Public,0.416,1311.0,30418,13812,33256,0.7392,60249
+The University of Texas Rio Grande Valley,Edinburg,TX,6,Southwest,1,Public,0.9419,985.0,28666,9987,19827,0.509,49620
+The University of Texas at Arlington,Arlington,TX,6,Southwest,1,Public,0.799,1124.0,32294,11950,29582,0.5402,63199
+The University of Texas at Austin,Austin,TX,6,Southwest,1,Public,0.2664,1395.0,42855,11688,44908,0.889,75121
+The University of Texas at Dallas,Richardson,TX,6,Southwest,1,Public,0.6513,1286.0,21751,14644,40144,0.7569,68227
+The University of Texas at El Paso,El Paso,TX,6,Southwest,1,Public,0.9992,962.0,21005,9744,25502,0.5017,50923
+The University of Texas at San Antonio,San Antonio,TX,6,Southwest,1,Public,0.8679,1105.0,30580,9011,22051,0.5264,57131
+Towson University,Towson,MD,2,Mid East,1,Public,0.8197,1095.0,16136,11728,29820,0.6946,64390
+Tufts University,Medford,MA,1,New England,2,Private nonprofit,0.1149,1513.0,7061,70704,70704,0.9351,83214
+Tulane University of Louisiana,New Orleans,LA,5,Southeast,2,Private nonprofit,0.1398,1448.0,7767,68678,68678,0.8614,63268
+University at Albany,Albany,NY,2,Mid East,1,Public,0.691,,12564,10866,31256,0.6145,67979
+University at Buffalo,Buffalo,NY,2,Mid East,1,Public,0.7418,1295.0,20112,10936,31536,0.7518,70814
+University of Alabama at Birmingham,Birmingham,AL,5,Southeast,1,Public,0.8818,1258.0,11635,9098,22562,0.6423,54501
+University of Arizona,Tucson,AZ,6,Southwest,1,Public,0.8614,1246.0,42537,13926,42278,0.6752,59979
+University of Arkansas,Fayetteville,AR,5,Southeast,1,Public,0.743,1169.0,28677,10104,29966,0.7052,58191
+University of California-Berkeley,Berkeley,CA,8,Far West,1,Public,0.1098,,33068,16347,50547,0.9284,92446
+University of California-Davis,Davis,CA,8,Far West,1,Public,0.4183,,32253,16774,50974,0.8567,80838
+University of California-Irvine,Irvine,CA,8,Far West,1,Public,0.2857,,30197,15722,49922,0.8687,80735
+University of California-Los Angeles,Los Angeles,CA,8,Far West,1,Public,0.0897,,33475,15203,49403,0.9262,82511
+University of California-Riverside,Riverside,CA,8,Far West,1,Public,0.7639,,22593,15606,49806,0.7596,67699
+University of California-San Diego,La Jolla,CA,8,Far West,1,Public,0.2671,,34948,16758,50958,0.8605,84943
+University of California-Santa Barbara,Santa Barbara,CA,8,Far West,1,Public,0.3297,,23113,16414,50614,0.8303,74915
+University of California-Santa Cruz,Santa Cruz,CA,8,Far West,1,Public,0.6579,,17940,16005,50205,0.7509,68396
+University of Central Florida,Orlando,FL,5,Southeast,1,Public,0.4011,1269.0,59146,6368,22467,0.7801,58308
+University of Central Oklahoma,Edmond,OK,6,Southwest,1,Public,0.7812,1090.0,10170,8818,19704,0.3676,48351
+University of Chicago,Chicago,IL,3,Great Lakes,2,Private nonprofit,0.0448,1554.0,7569,70662,70662,0.9585,91885
+University of Cincinnati-Main Campus,Cincinnati,OH,3,Great Lakes,1,Public,0.8529,1282.0,29882,13976,29310,0.7496,54810
+University of Colorado Boulder,Boulder,CO,7,Rocky Mountains,1,Public,0.7808,1357.0,31939,15666,44918,0.7419,69738
+University of Colorado Denver/Anschutz Medical Campus,Denver,CO,7,Rocky Mountains,1,Public,0.7468,1116.0,10519,10383,29391,0.4615,64270
+University of Connecticut,Storrs,CT,1,New England,1,Public,0.5239,1348.0,19835,21044,43712,0.8329,73997
+University of Delaware,Newark,DE,2,Mid East,1,Public,0.706,1292.0,19071,16810,41400,0.8055,72950
+University of Florida,Gainesville,FL,5,Southeast,1,Public,0.242,1403.0,35629,6381,28659,0.9112,71588
+University of Georgia,Athens,GA,5,Southeast,1,Public,0.377,1397.0,32137,11450,31688,0.8969,68726
+University of Hawaii at Manoa,Honolulu,HI,8,Far West,1,Public,0.866,1102.0,15029,12186,34218,0.6429,57624
+University of Houston,Houston,TX,6,Southwest,1,Public,0.7392,1250.0,38380,9717,22547,0.6456,62377
+University of Houston-Downtown,Houston,TX,6,Southwest,1,Public,0.8996,1029.0,12555,7708,17548,0.332,53551
+University of Illinois Chicago,Chicago,IL,3,Great Lakes,1,Public,0.7735,1250.0,22170,14338,29884,0.6162,68740
+University of Illinois Urbana-Champaign,Champaign,IL,3,Great Lakes,1,Public,0.4237,1440.0,36258,16004,35124,0.8513,81054
+University of Iowa,Iowa City,IA,4,Plains,1,Public,0.8362,1200.0,22264,11283,33371,0.7463,64762
+University of Kansas,Lawrence,KS,4,Plains,1,Public,0.9348,1190.0,21217,12102,30432,0.6881,61945
+University of Kentucky,Lexington,KY,5,Southeast,1,Public,0.9294,1215.0,24763,13502,34140,0.7142,59025
+University of Louisiana at Lafayette,Lafayette,LA,5,Southeast,1,Public,0.8701,1219.0,12428,10418,24146,0.5263,47089
+University of Louisville,Louisville,KY,5,Southeast,1,Public,0.7941,1150.0,14727,13136,29482,0.6123,53899
+University of Maryland-Baltimore County,Baltimore,MD,2,Mid East,1,Public,0.7243,1323.0,10701,13256,31275,0.7001,69960
+University of Maryland-College Park,College Park,MD,2,Mid East,1,Public,0.4479,1473.0,30760,11809,41186,0.8859,82860
+University of Massachusetts-Amherst,Amherst,MA,1,New England,1,Public,0.5973,1423.0,23671,17772,40449,0.8326,71631
+University of Massachusetts-Boston,Boston,MA,1,New England,1,Public,0.8378,1194.0,11512,15908,38125,0.4941,65865
+University of Massachusetts-Lowell,Lowell,MA,1,New England,1,Public,0.8304,1285.0,11434,16966,36264,0.6482,64874
+University of Memphis,Memphis,TN,5,Southeast,1,Public,0.7203,1088.0,12701,10728,15384,0.5089,48458
+University of Miami,Coral Gables,FL,5,Southeast,2,Private nonprofit,0.189,1415.0,12913,62616,62616,0.8368,75328
+University of Michigan-Ann Arbor,Ann Arbor,MI,3,Great Lakes,1,Public,0.1564,1465.0,34177,17736,60946,0.932,83648
+University of Minnesota-Twin Cities,Minneapolis,MN,4,Plains,1,Public,0.7975,1362.0,31855,17214,38362,0.8528,69020
+University of Mississippi,University,MS,5,Southeast,1,Public,0.9658,1184.0,21473,9772,28600,0.7174,50994
+University of Missouri-Columbia,Columbia,MO,4,Plains,1,Public,0.7847,1247.0,23929,14837,36056,0.7494,63403
+University of Nebraska at Omaha,Omaha,NE,4,Plains,1,Public,0.8698,1120.0,11488,8718,23206,0.4708,53909
+University of Nebraska-Lincoln,Lincoln,NE,4,Plains,1,Public,0.8749,1191.0,19178,10434,28584,0.6697,56887
+University of Nevada-Las Vegas,Las Vegas,NV,8,Far West,1,Public,0.9617,1094.0,24622,9748,27411,0.5051,55037
+University of Nevada-Reno,Reno,NV,8,Far West,1,Public,0.7371,1132.0,15599,9578,27720,0.6124,60614
+University of New Hampshire-Main Campus,Durham,NH,1,New England,1,Public,0.8816,1218.0,11261,19202,39852,0.7607,66479
+University of New Mexico-Main Campus,Albuquerque,NM,6,Southwest,1,Public,0.9518,1038.0,17244,10140,33060,0.5469,44792
+University of North Carolina Wilmington,Wilmington,NC,5,Southeast,1,Public,0.6424,1287.0,14922,7277,24152,0.7059,54967
+University of North Carolina at Chapel Hill,Chapel Hill,NC,5,Southeast,1,Public,0.1534,1439.0,20752,8994,41203,0.9117,72200
+University of North Carolina at Charlotte,Charlotte,NC,5,Southeast,1,Public,0.796,1231.0,24453,7239,22492,0.6897,57289
+University of North Carolina at Greensboro,Greensboro,NC,5,Southeast,1,Public,0.8851,1193.0,14062,7661,24012,0.5631,48160
+University of North Florida,Jacksonville,FL,5,Southeast,1,Public,0.5324,1153.0,13359,6389,20793,0.6921,56343
+University of North Georgia,Dahlonega,GA,5,Southeast,1,Public,0.6794,1106.0,16146,5285,16503,0.3729,50135
+University of North Texas,Denton,TX,6,Southwest,1,Public,0.7223,1109.0,34341,11309,21149,0.6071,57010
+University of Notre Dame,Notre Dame,IN,3,Great Lakes,2,Private nonprofit,0.1127,1520.0,8818,65025,65025,0.9517,99980
+University of Oklahoma-Norman Campus,Norman,OK,6,Southwest,1,Public,0.766,1246.0,22734,9797,27377,0.7533,63126
+University of Oregon,Eugene,OR,8,Far West,1,Public,0.883,1272.0,20497,16137,44598,0.7169,61324
+University of Pennsylvania,Philadelphia,PA,2,Mid East,2,Private nonprofit,0.054,1553.0,10650,68686,68686,0.9654,111371
+University of Pittsburgh-Pittsburgh Campus,Pittsburgh,PA,2,Mid East,1,Public,0.5808,1370.0,20370,21926,41430,0.855,66125
+University of Rhode Island,Kingston,RI,1,New England,1,Public,0.7216,1160.0,13381,16942,37146,0.7331,69743
+University of Richmond,University of Richmond,VA,5,Southeast,2,Private nonprofit,0.222,1497.0,2980,65230,65230,0.852,76178
+University of South Carolina-Columbia,Columbia,SC,5,Southeast,1,Public,0.6015,1297.0,29820,12688,35972,0.7882,62177
+University of South Florida,Tampa,FL,5,Southeast,1,Public,0.4319,1227.0,37207,6410,17324,0.7676,57743
+University of Southern California,Los Angeles,CA,8,Far West,2,Private nonprofit,0.0981,1495.0,20443,72097,72097,0.9183,92498
+University of Southern Mississippi,Hattiesburg,MS,5,Southeast,1,Public,0.9912,1190.0,10075,9998,11998,0.4906,44140
+University of Utah,Salt Lake City,UT,7,Rocky Mountains,1,Public,0.8598,1257.0,27264,9620,30860,0.6505,67170
+University of Vermont,Burlington,VT,1,New England,1,Public,0.653,1374.0,11743,19058,45502,0.7859,62472
+University of Virginia-Main Campus,Charlottesville,VA,5,Southeast,1,Public,0.1681,1480.0,17597,21803,59512,0.956,86863
+University of Washington-Seattle Campus,Seattle,WA,8,Far West,1,Public,0.3915,,31942,12973,43209,0.8518,78466
+University of Wisconsin-Madison,Madison,WI,3,Great Lakes,1,Public,0.452,1427.0,36902,11603,42103,0.8955,73792
+University of Wisconsin-Milwaukee,Milwaukee,WI,3,Great Lakes,1,Public,0.9068,1090.0,16758,10398,22398,0.4932,54990
+Vanderbilt University,Nashville,TN,5,Southeast,2,Private nonprofit,0.0586,1549.0,7208,67498,67498,0.9354,91565
+Vassar College,Poughkeepsie,NY,2,Mid East,2,Private nonprofit,0.1857,1494.0,2444,71030,71030,0.9108,71366
+Virginia Commonwealth University,Richmond,VA,5,Southeast,1,Public,0.9262,1137.0,20753,16945,40109,0.6318,58128
+Virginia Polytechnic Institute and State University,Blacksburg,VA,5,Southeast,1,Public,0.5478,1364.0,30923,15948,37764,0.8622,81698
+Wake Forest University,Winston-Salem,NC,5,Southeast,2,Private nonprofit,0.2167,1475.0,5485,67642,67642,0.8915,78158
+Washington State University,Pullman,WA,8,Far West,1,Public,0.8664,,21099,13391,29950,0.605,68905
+Washington University in St Louis,St. Louis,MO,4,Plains,2,Private nonprofit,0.1206,1530.0,7857,65790,65790,0.9426,86182
+Washington and Lee University,Lexington,VA,5,Southeast,2,Private nonprofit,0.1397,1498.0,1881,68045,68045,0.9388,94810
+Wayne State University,Detroit,MI,3,Great Lakes,1,Public,0.8116,1156.0,15587,15190,32037,0.5844,53493
+Wellesley College,Wellesley,MA,1,New England,2,Private nonprofit,0.1405,1520.0,2300,67176,67176,0.9153,84803
+Wesleyan University,Middletown,CT,1,New England,2,Private nonprofit,0.1649,1501.0,3067,70342,70342,0.9264,73897
+West Chester University of Pennsylvania,West Chester,PA,2,Mid East,1,Public,0.784,1187.0,14164,10775,22599,0.7051,61258
+West Virginia University,Morgantown,WV,5,Southeast,1,Public,0.89,1122.0,17385,10104,28608,0.6466,55939
+Western Carolina University,Cullowhee,NC,5,Southeast,1,Public,0.8183,1157.0,10024,4630,8630,0.6026,49458
+Western Kentucky University,Bowling Green,KY,5,Southeast,1,Public,0.9387,971.0,12155,11652,27000,0.5556,43889
+Western Michigan University,Kalamazoo,MI,3,Great Lakes,1,Public,0.846,,12568,15252,19034,0.5757,53562
+Western Washington University,Bellingham,WA,8,Far West,1,Public,0.9325,1289.0,13544,9582,28707,0.6464,62569
+Wichita State University,Wichita,KS,4,Plains,1,Public,0.9395,1092.0,10780,9684,19869,0.5103,51532
+Williams College,Williamstown,MA,1,New England,2,Private nonprofit,0.0825,1533.0,2076,68560,68560,0.9361,88665
+Yale University,New Haven,CT,1,New England,2,Private nonprofit,0.0387,1534.0,6758,67250,67250,0.9574,100533
