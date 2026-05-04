@@ -25,3 +25,22 @@ def update_score(score, difficulty, streak, hints_used, correct):
         lost = HINT_COST * hints_used
         return score - lost, -lost
 
+def get_streak(streak, correct):
+    return streak + 1 if correct else 0
+
+def difficulty_ramp(rounds_correct):
+    # bump up every 3 correct answers
+    if rounds_correct < 3:
+        return "easy"
+    if rounds_correct < 6:
+        return "medium"
+    return "hard"
+
+
+def format_score_line(score, streak, difficulty):
+    mult = streak_multiplier(streak)
+    if streak > 0:
+        streak_str = f"{streak}-streak ({mult:g}x)"
+    else:
+        streak_str = "no streak"
+    return f"Score: {score}  |  {streak_str}  |  Difficulty: {difficulty.upper()}"
