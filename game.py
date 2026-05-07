@@ -101,5 +101,135 @@ def ask_hint_choice(can_reveal, can_hot_cold):
         print("  Didn't get that, try '1', '2', or 'cancel'.")
 
 
-# tracks which schools we've already used this game so we don't repeat
+# tracks which schools we've already used this game
 seen_schools = set()
+def play_round(df, school_names, score, streak, rounds_correct):
+    """Play one round. Returns (new_score, new_streak, new_rounds_correct, outcome)
+    where outcome is 'correct', 'wrong', 'skip', or 'quit'."""
+    difficulty = scoring.difficulty_ramp(rounds_correct)
+    school = question.pick_school(df, exclude=seen_schools)
+    seen_schools.add(school["INSTNM"])
+
+    extra_revealed = []
+    hints_used = 0
+    last_guess_name = None
+    guesses_used = 0
+
+    print_separator()
+    print(scoring.format_score_line(score, streak, difficulty))
+    print_separator()
+    print(question.format_clues(school, difficulty, extra_revealed))
+    print()
+    print("  Type your guess, or 'hint' / 'skip' / 'quit'.")
+
+    while True:
+        raw = input("  > ").strip()
+        if not raw:
+            continue
+        cmd = raw.lower()
+
+        if cmd in ("quit", "q", "exit"):
+            return score, streak, rounds_correct, "quit"
+
+        if cmd in ("skip", "s"):
+            print(f"  Answer was: {school['INSTNM']}.")
+            new_score, _ = scoring.update_score(score, difficulty, streak,
+                                                hints_used, correct=False)
+            return new_score, 0, rounds_correct, "skip"
+
+        if cmd in ("hint", "h"):
+            if hints_used >= MAX_HINTS_PER_ROUND:
+                print(f"  Out of hints (max {MAX_HINTS_PER_ROUND} per round).")
+                continue
+            can_reveal = bool(question.hidden_stats(school, difficulty, extra_revealed))
+            can_hot_cold = last_guess_name is not None
+            choice = ask_hint_choice(can_reveal, can_hot_cold)
+            if choice == "reveal":
+                result = hints.reveal_stat(school, difficulty, extra_revealed)
+                if result is not None:
+                    _, msg = result
+                    print(f"  {msg}")
+                    hints_used += 1
+                    print()
+                    print(question.format_clues(school, difficulty, extra_revealed))
+            elif choice == "hot_cold":
+                msg = hints.hot_cold(school, last_guess_name, df)
+                # indent the hot/cold output to match the rest of the round
+                print("  " + msg.replace("\n", "\n  "))
+                hints_used += 1
+            continue  # don't count a hint as a guess
+
+        # otherwise it's a guess
+        guesses_used += 1
+        match = fuzzy_match(raw, school_names)
+
+        if match == school["INSTNM"]:
+            new_score, delta = scoring.update_score(score, difficulty, streak,
+                                                    hints_used, correct=True)
+            new_streak = scoring.get_streak(streak, True)
+            mult = scoring.streak_multiplier(streak)
+            print(f"  CORRECT -- {school['INSTNM']}.")
+            print(f"  +{delta} pts (base {scoring.BASE_POINTS[difficulty]}, "
+                  f"x{mult:g} streak, -{scoring.HINT_COST * hints_used} hints).")
+            return new_score, new_streak, rounds_correct + 1, "correct"
+
+        # wrong. tell the player what we read their guess as if anything
+        if match:
+            print(f"  Not quite. (Read your guess as: {match}.)")
+            last_guess_name = match
+        else:
+            print("  Not quite. (Couldn't recognize that name -- try again.)")
+
+        if guesses_used >= MAX_GUESSES_PER_ROUND:
+            print(f"  Out of guesses. The answer was: {school['INSTNM']}.")
+            new_score, _ = scoring.update_score(score, difficulty, streak,
+                                                hints_used, correct=False)
+            return new_score, 0, rounds_correct, "wrong"
+
+
+def run():
+    print()
+    print("=" * 60)
+    print("  GUESS THAT COLLEGE")
+    print("  Identify a school from its admissions and outcomes stats.")
+    print("=" * 60)
+
+    df = question.load_schools()
+    school_names = df["INSTNM"].tolist()
+    print(f"  ({len(df)} schools loaded)\n")
+
+    board = leaderboard.load_leaderboard()
+    print(leaderboard.display(board))
+    print()
+
+    name = input("Your name: ").strip() or "anon"
+
+    seen_schools.clear()  # reset between games
+
+    score = 0
+    streak = 0
+    rounds_correct = 0
+    rounds_played = 0
+
+    while True:
+        score, streak, rounds_correct, outcome = play_round(
+            df, school_names, score, streak, rounds_correct
+        )
+        rounds_played += 1
+        if outcome == "quit":
+            break
+        cont = input("\nAnother round? (Y/n) ").strip().lower()
+        if cont in ("n", "no", "q", "quit"):
+            break
+
+    print_separator()
+    print(f"Game over. {name}, you scored {score} across {rounds_played} round(s).")
+
+    board, rank = leaderboard.add_score(board, name, score)
+    leaderboard.save_leaderboard(board)
+    if rank:
+        print(f"You made the leaderboard at rank #{rank}.\n")
+    else:
+        print()
+    print(leaderboard.display(board))
+    print()
