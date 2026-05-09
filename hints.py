@@ -34,3 +34,38 @@ def temp_label(distance, far, mid, close):
     if distance < far:
         return "cool"
     return "ice cold"
+
+def hot_cold(answer, guess_name, df):
+    rows = df[df["INSTNM"].str.lower() == guess_name.strip().lower()]
+    if len(rows) == 0:
+        # try substring
+        rows = df[df["INSTNM"].str.lower().str.contains(
+            guess_name.strip().lower(), regex=False)]
+    if len(rows) == 0:
+        return "(Can't find that school in the data, no hot/cold available.)"
+
+    g = rows.iloc[0]
+    out = [f"Hot/cold vs '{g['INSTNM']}':"]
+
+    # acceptance rate: just absolute difference
+    d = abs(float(g["ADM_RATE"]) - float(answer["ADM_RATE"]))
+    out.append(f"  Acceptance rate -> {temp_label(d, 0.40, 0.20, 0.07)}")
+
+    # enrollment: log scale because schools range from ~1k to ~50k
+    d = abs(math.log10(max(float(g["UGDS"]), 1)) -
+            math.log10(max(float(answer["UGDS"]), 1)))
+    out.append(f"  Enrollment -> {temp_label(d, 1.0, 0.5, 0.2)}")
+
+    # in-state tuition dollar difference
+    d = abs(float(g["TUITIONFEE_IN"]) - float(answer["TUITIONFEE_IN"]))
+    out.append(f"  In-state tuition -> {temp_label(d, 30000, 15000, 5000)}")
+
+    # location check
+    if str(g["STABBR"]) == str(answer["STABBR"]):
+        out.append("  Same state as the answer.")
+    elif str(g["REGION"]) == str(answer["REGION"]):
+        out.append("  Same region, different state.")
+    else:
+        out.append("  Different region.")
+
+    return "\n".join(out)
