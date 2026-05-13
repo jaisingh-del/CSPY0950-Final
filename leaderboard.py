@@ -9,6 +9,7 @@ TOP_N = 5
 
 # Jai
 
+# Loads and returns leaderboard entries from JSON file
 def load_leaderboard(path=PATH):
     if not os.path.exists(path):
         return []
@@ -22,11 +23,12 @@ def save_leaderboard(entries, path=PATH):
 
 
 def add_score(entries, name, score):
-    """Add a new run, keep top N. Returns (new_list, rank or None)."""
+    #Add a new run, keep top N. Returns (new_list, rank or None).
     name = name.strip() or "anon"
     new_entry = {"name": name, "score": int(score),
                  "date": date.today().isoformat()}
     combined = entries + [new_entry]
+    # Merge, sort and truncate to top N
     combined.sort(key=lambda e: e["score"], reverse=True)
     top = combined[:TOP_N]
 
@@ -36,7 +38,7 @@ def add_score(entries, name, score):
             return top, i
     return top, None
 
-
+# Formatting the leaderboard as a display string
 def display(entries, title="Leaderboard"):
     if not entries:
         return f"-- {title} --\n  (no scores yet)"

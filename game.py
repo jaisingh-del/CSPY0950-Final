@@ -16,14 +16,14 @@ SKIP_WORDS = {"of", "the", "at", "and", "in", "for", "a", "an"}
 
 
 def name_tokens(name):
-    """Break a school name into significant lowercase words."""
+    # Break a school name into significant lowercase words.
     parts = re.split(r"[\s\-&,]+", name.lower())
     return [p for p in parts if len(p) >= 4 and p not in SKIP_WORDS]
 
 
 def fuzzy_match(guess, names):
-    """Try to map a free-text guess to one of the canonical school names.
-    Returns the canonical name or None."""
+    # Try to map a free-text guess to one of the canonical school names.
+    # Returns the canonical name or None.
     guess = guess.strip()
     if not guess:
         return None
