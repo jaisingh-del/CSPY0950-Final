@@ -3,3 +3,5 @@ if __name__ == "__main__":
         game.run()
     except (KeyboardInterrupt, EOFError):
         print("\n\nBye.\n")
+
+# main file to run

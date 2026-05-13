@@ -1,5 +1,6 @@
 # Cleans the raw College Scorecard CSV down to a smaller set of well-known
 # 4-year colleges. Run once: python data_cleaner.py
+# Jai 
 
 import os
 import pandas as pd

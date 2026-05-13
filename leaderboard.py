@@ -7,6 +7,7 @@ from datetime import date
 PATH = "leaderboard.json"
 TOP_N = 5
 
+# Jai
 
 def load_leaderboard(path=PATH):
     if not os.path.exists(path):

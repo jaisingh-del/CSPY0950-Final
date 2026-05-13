@@ -12,6 +12,8 @@ FUZZY_CUTOFF = 0.78
 
 SKIP_WORDS = {"of", "the", "at", "and", "in", "for", "a", "an"}
 
+# Jai with Hpone
+
 
 def name_tokens(name):
     """Break a school name into significant lowercase words."""

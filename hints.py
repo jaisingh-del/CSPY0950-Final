@@ -2,6 +2,7 @@ import math
 import random
 import question
 
+# Hpone with Jai
 
 def reveal_stat(school, difficulty, already_revealed):
     #Pick one hidden stat and reveal it. Returns key, message or None.
