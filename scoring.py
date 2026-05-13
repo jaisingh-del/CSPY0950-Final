@@ -3,6 +3,7 @@
 BASE_POINTS = {"easy": 10, "medium": 20, "hard": 30}
 HINT_COST = 5
 
+# Hpone with Jai
 
 def streak_multiplier(streak):
     # multiplier for `streak` consecutive correct answers
@@ -13,7 +14,7 @@ def streak_multiplier(streak):
     if streak == 4: return 2.5
     return 3.0  # cap at 3x
 
-
+# Updates and returns new score and points change after a round
 def update_score(score, difficulty, streak, hints_used, correct):
     """Apply the result of a round. Returns (new_score, points_change)."""
     if correct:
@@ -26,8 +27,10 @@ def update_score(score, difficulty, streak, hints_used, correct):
         return score - lost, -lost
 
 def get_streak(streak, correct):
+    # Increments the streak when an answer is correct
     return streak + 1 if correct else 0
 
+# Returns the current difficulty tier, increments tier based on correct answers
 def difficulty_ramp(rounds_correct):
     # bump up every 3 correct answers
     if rounds_correct < 3:
@@ -36,7 +39,7 @@ def difficulty_ramp(rounds_correct):
         return "medium"
     return "hard"
 
-
+# Returns formmated display 
 def format_score_line(score, streak, difficulty):
     mult = streak_multiplier(streak)
     if streak > 0:

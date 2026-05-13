@@ -157,7 +157,7 @@ def load_schools(path="data/cleaned_schools.csv"):
 
 
 def pick_school(df, exclude=None):
-    """Pick a random school, skipping ones already used this game."""
+    #Pick a random school, skipping ones already used this game.
     if exclude is None:
         exclude = set()
     pool = df[~df["INSTNM"].isin(exclude)]
@@ -167,7 +167,7 @@ def pick_school(df, exclude=None):
 
 
 def format_clues(school, difficulty, extra_revealed=None):
-    """Build the clue card for the round as a string."""
+    #Build the clue card for the round as a string.
     if extra_revealed is None:
         extra_revealed = []
     visible = set(VISIBLE[difficulty]) | set(extra_revealed)
@@ -187,7 +187,7 @@ def format_clues(school, difficulty, extra_revealed=None):
 
 
 def hidden_stats(school, difficulty, already_revealed):
-    """Return keys that are still hidden AND have a value (so a hint can reveal them)."""
+    #Return keys that are still hidden AND have a value (so a hint can reveal them).
     visible = set(VISIBLE[difficulty]) | set(already_revealed)
     return [k for k in STATS
             if k not in visible and k in school and pd.notna(school[k])]
